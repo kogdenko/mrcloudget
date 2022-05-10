@@ -1,0 +1,9 @@
+Utility from synchronization files from mail.ru cloud to local storage
+Works as automatization of google-chrome via selenium (because mail.ru cloud
+has no official API)
+Tested on Linux
+License is GPL v2
+You shoud mandatory specify destination folder to download files to
+./mrcloudget.py -D ./cloud
+To synchronize only some specific folder in cloud, please, specify --path option:
+/mrcloudget.py -D ./cloud --path abook/classic
